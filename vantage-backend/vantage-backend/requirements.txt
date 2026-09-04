@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pandas
+scikit-learn
+statsmodels
+prophet
+numpy
+python-multipart
+python-dotenv
+anthropic
+python-dateutil

@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  .font-vantage {
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.12em;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5bfd6;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9d94b8;
+}
